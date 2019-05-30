@@ -3,7 +3,7 @@
 @section('content')
 
 <br>
-<!-- img src="{{ asset('storage/images/aaaa.jpg')}}" class="d-block w-100" alt="..." -->
+<!-- img src="{{ asset('stor/images/aaaa.jpg')}}" class="d-block w-100" alt="..." -->
 <div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
@@ -16,13 +16,13 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('storage/images/aaaa.jpg')}}" alt="Los Angeles" width="1100" height="500">
+      <img src="/images/aaaa.jpg" alt="Los Angeles" width="1100" height="500">
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('storage/images/bbb.jpg')}}" alt="Chicago" width="1100" height="500">
+      <img src="/images/bbb.jpg" alt="Chicago" width="1100" height="500">
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('storage/images/cccc.jpg')}}" alt="New York" width="1100" height="500">
+      <img src="/images/cccc.jpg" alt="New York" width="1100" height="500">
     </div>
   </div>
   
